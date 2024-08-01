@@ -1,35 +1,35 @@
 This project is a Spring Boot application that provides a RESTful API for managing student records. The application supports basic CRUD operations and integrates with a MySQL database for data persistence.
 
-Project Type:-
+=> Project Type:-
 - CRUD operations for students
 - Integration with MySQL database
 - RESTful API design
 
-  Technologies:-
+=> Technologies:-
 - Spring Boot
 - Spring Data JPA (Hibernate)
 - MySQL
 
-  Prerequisites:-
+=>  Prerequisites:-
 - JDK 17 or later
 - Maven 3.6.3 or later
 - MySQL Server
 - IDE
 
-  Clone the repository:-
+ => Clone the repository:-
   - git clone https://github.com/your-repo/Student-Management-App.git
   - cd Student-Management-App
  
-    Create Mysql database:-
+   => Create Mysql database:-
     - CREATE DATABASE studentdb;
    
-      Update the application.properties:-
-      -spring.datasource.url=jdbc:mysql://localhost:3306/student_management_db
+    =>  Update the application.properties:-
+     - spring.datasource.url=jdbc:mysql://localhost:3306/student_management_db
      - spring.datasource.username=your-username
      - spring.datasource.password=your-password
      - spring.jpa.hibernate.ddl-auto=update
    
-     - Build the project:-
+     => Build the project:-
      - mvn clean install
 
       -Run the project:-
